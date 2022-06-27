@@ -1,5 +1,6 @@
 import pandas
 from fpdf import FPDF
+# pip install openpyxl to use .xlsx files
 
 df=pandas.read_excel('data.xlsx')
 print(df)
